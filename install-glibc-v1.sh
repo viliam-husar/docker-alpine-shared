@@ -12,5 +12,3 @@ GLIBC_BASE_URL="https://github.com/sgerrand/alpine-pkg-glibc/releases/download" 
 && echo "export LANG=C.UTF-8" > /etc/profile.d/locale.sh \
 && apk del glibc-i18n \
 && rm -rf /tmp/glibc_packages /root/.wget-hsts /etc/apk/keys/sgerrand.rsa.pub
-
-ENV LANG=C.UTF-8
