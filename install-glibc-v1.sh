@@ -1,10 +1,10 @@
 GLIBC_BASE_URL="https://github.com/sgerrand/alpine-pkg-glibc/releases/download"
 GLIBC_PACKAGE_VERSION="2.25-r0"
 
-wget \
+wget -nv \
     "https://raw.githubusercontent.com/andyshinn/alpine-pkg-glibc/master/sgerrand.rsa.pub" \
     -O "/etc/apk/keys/sgerrand.rsa.pub"
-wget -P /tmp/glibc_packages \
+wget -nv -P /tmp/glibc_packages \
     "${GLIBC_BASE_URL}/${GLIBC_PACKAGE_VERSION}/glibc-${GLIBC_PACKAGE_VERSION}.apk" \
     "${GLIBC_BASE_URL}/${GLIBC_PACKAGE_VERSION}/glibc-bin-${GLIBC_PACKAGE_VERSION}.apk" \
     "${GLIBC_BASE_URL}/${GLIBC_PACKAGE_VERSION}/glibc-i18n-${GLIBC_PACKAGE_VERSION}.apk"
