@@ -1,4 +1,7 @@
 # Dependencies: wget, ca-certificates, unzip
+# ENV to set in target Dockerfile: JAVA_HOME="/opt/java"
+
+
 JAVA_VERSION=8
 JAVA_UPDATE=131
 JAVA_BUILD=11
