@@ -2,7 +2,7 @@
 # ENV to set in target Dockerfile: LANG=C.UTF-8
 
 GLIBC_BASE_URL="https://github.com/sgerrand/alpine-pkg-glibc/releases/download"
-GLIBC_PACKAGE_VERSION="2.25-r0"
+GLIBC_PACKAGE_VERSION="2.27-r0"
 
 wget -nv \
     "https://raw.githubusercontent.com/andyshinn/alpine-pkg-glibc/master/sgerrand.rsa.pub" \
