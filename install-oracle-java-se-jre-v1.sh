@@ -45,4 +45,4 @@ rm -rf \
    "${JAVA_HOME}/lib/jfr" \
    "${JAVA_HOME}/lib/oblique-fonts"
 echo "export JAVA_HOME=${JAVA_HOME}" > /etc/profile.d/java.sh
-rm -rf /tmp/*
+rm -rf /tmp/java_packages /root/.wget-hsts
