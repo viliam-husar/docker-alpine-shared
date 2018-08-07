@@ -4,7 +4,7 @@
 
 JAVA_VERSION=8
 JAVA_UPDATE=181
-JAVA_BUILD=01
+JAVA_BUILD=13
 JAVA_HOME="/opt/java"
 
 wget -nv -P "/tmp/java_packages/" --header "Cookie: oraclelicense=accept-securebackup-cookie;" \
